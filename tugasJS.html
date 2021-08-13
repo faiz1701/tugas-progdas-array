@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+//contoh method array.join
+
+        var ara = [1,2,3,4,5,6,7,8,9,10,"a","b","c"];
+        console.log(ara.join("|"));
+
+
+//contoh method array.reverse
+
+        var ara1 = [1,2,3,4,5,6,7,8,9,10];
+        ara1.reverse();
+        console.log(ara1.toString());
+
+
+
+//contoh method array.sort
+
+        var ara2 = ["umhad", "zifa", "riski", "aidan"];
+         ara2.sort();
+         console.log(ara2.toString());
+
+
+//contoh method array.concat
+
+         var ara3 = [1,2,3,4,5,6,7,8,9,"a","b"]
+         console.log(ara3.toString());
+
+         var ara4 = ara3.concat(10,11,12,13);
+         console.log(ara4.toString());
+
+//contoh method array.slice
+
+        var x = [1,2,3,4,5,6,7,8,9,10,11];
+
+        var x1 = x.slice(3,7);
+            console.log(x1.toString());
+
+        var x2 = x.slice(-3);
+        console.log(x2.toString());    
+
+//contoh method array.splice
+  
+        var y = [1,2,3,4,5,6,7,8,9,10]
+        console.log(y.toString());
+        var y1 = y.splice(3,3);
+
+        console.log(y.toString());
+        console.log(y1.splice());
+
+//contoh method array.push dan array pop
+
+         var h = [];
+
+         h.push("a","b","c","d","e")
+         console.log(h.toString());
+
+         h.push("f");
+         console.log(h.toString());
+
+
+         h.pop();
+         console.log(h.toString());
+
+         h.pop();
+         console.log(h.toString());
+
+//contoh method array.unshift dan array.shift
+
+           var k = [];
+
+           k.unshift("k","l","m","o")
+           console.log(k.toString());
+
+           k.unshift("p")
+           console.log(k.toString());
+
+           k.shift();
+           console.log(k,toString());
+
+           k.shift();
+           console.log(k.toString());
+
+    </script>
+
+</body>
+</html>
